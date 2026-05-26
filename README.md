@@ -3,9 +3,9 @@ Projeto da disciplina de Robótica e Sistemas Inteligentes.
 
 Alunos: 
 
-# Henrique De Nadai Salvador
+Henrique De Nadai Salvador
 
-# Jeferson Moraes Pereira de Sousa
+Jeferson Moraes Pereira de Sousa
 
 
 
