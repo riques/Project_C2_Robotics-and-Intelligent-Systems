@@ -1,5 +1,8 @@
 # Detecção de Objetos com IA - SSD MobileNet
 Projeto da disciplina de Robótica e Sistemas Inteligentes. 
+Alunos: 
+Henrique De Nadai Salvador
+Jeferson Moraes Pereira de Sousa
 
 Nesta etapa, o projeto evoluiu da simples classificação de imagens para o **reconhecimento e detecção de objetos** utilizando o algoritmo SSD acoplado ao MobileNet.
 
