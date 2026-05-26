@@ -1,5 +1,6 @@
 # Detecção de Objetos com IA - SSD MobileNet
 Projeto da disciplina de Robótica e Sistemas Inteligentes. 
+
 Alunos: 
 Henrique De Nadai Salvador
 Jeferson Moraes Pereira de Sousa
