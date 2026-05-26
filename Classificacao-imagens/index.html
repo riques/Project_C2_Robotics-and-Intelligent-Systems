@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Reconhecimento de Objetos - SSD MobileNet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Detecção de Objetos com IA</h1>
+    <p>Algoritmo escolhido: <strong>SSD MobileNet</strong> (via TensorFlow.js)</p>
+
+    <div class="card">
+      <p id="status" class="highlight">Aguardando ação...</p>
+      
+      <div class="botoes">
+        <label for="uploadFoto" class="btn-custom">Carregar Foto</label>
+        <input type="file" id="uploadFoto" accept="image/*" style="display: none;">
+        
+        <button id="btnWebcam" onclick="iniciarReconhecimento()" class="btn-custom">Ligar Webcam</button>
+      </div>
+      
+      <div class="midia-container" id="containerFoto" style="display: none;">
+        <img id="imgEstatica">
+        <canvas id="canvasFoto"></canvas>
+      </div>
+
+      <div class="midia-container" id="containerWebcam" style="display: none;">
+        <video id="webcam" autoplay playsinline muted></video>
+        <canvas id="canvasWebcam"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+  <script src="script.js"></script>
+</body>
+</html>

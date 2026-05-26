@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #eaeff2;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  margin-top: 20px;
+}
+
+.botoes {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-custom {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s;
+  display: inline-block;
+}
+
+.btn-custom:hover {
+  background-color: #2980b9;
+}
+
+.highlight {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e67e22;
+}
+
+/* Container que mantém a imagem/video e o canvas sobrepostos */
+.midia-container {
+  position: relative;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+video {
+  display: block;
+  width: 640px;
+  height: 480px;
+  background-color: #000;
+}
+
+img {
+  display: block;
+  max-width: 640px; /* Limita o tamanho para não quebrar a tela */
+  height: auto;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
